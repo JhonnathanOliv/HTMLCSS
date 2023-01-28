@@ -1,0 +1,45 @@
+@charset "UFT-8";
+
+* {
+    height: 100%;
+}
+
+body {
+    background-color:#6f0cdc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    background-color: black;
+    color: white;
+    position: relative;
+    right: 8px;
+    width: 230px;
+    text-align: center;
+    height: 80px;
+    font-size: 50px;
+    
+}
+
+h2 {
+    color: white;
+    font-size: 35px;
+    position: relative;
+    left: 15px;
+    font-family:cursive
+}
+
+p {
+    color: white;
+    text-align: initial;
+    font-size: 20px;
+    position: absolute; width: 390px; position: absolute; top: 450px; right: 55px; 
+}
+
+img {
+    position: absolute;
+    height: 300px;
+    top: 850px;
+    left: 150px; 
+}
+
+ 

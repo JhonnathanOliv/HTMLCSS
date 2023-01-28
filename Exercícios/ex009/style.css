@@ -1,0 +1,21 @@
+@charset "UFT-8";
+
+* {
+    /*height: 100%;*/
+}
+
+@font-face {
+    font-family:'MLSJN';
+    src: url('font/MLSJN.otf');
+}
+
+body {
+    font-family: 'font/MLSJN.otf';
+    background-color: rgb(135, 152, 250);
+}
+
+h1 {
+    background-image: linear-gradient(rgb(33, 185, 245), rgb(35, 31, 255));
+    width: 350px;
+    font-family:'font/MLSJN.otf';
+}

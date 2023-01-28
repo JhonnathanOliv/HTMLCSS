@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <style>
+    @font-face {
+        font-family:'Museo';
+        src: url('Museo100-Regular.ttf') format('truetype'); font-family: 'Sacramento'; src: url('font/Sacramento.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        /*font-family:'Love';
+            src: url('fonts/LOVEPARADISE.otf') format('opentype'), url('fonts/LOVE PARADISE - 7 Quirkly Love Font (1).ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;*/
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(135, 152, 250);
+    }
+    
+    h1 {
+        font-family: 'Sacramento', Times, serif;
+            font-size: 4em;
+            font-weight: normal;
+            background-color: aqua;
+
+    }
+
+    h2 {
+        font-family: 'Museo';
+        font-size: 2em;
+    }
+
+    ol {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    ul {
+        font-family: 'Courier New', Courier, monospace
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1"> <!-- 1 A a I i-->
+        <li>Acordar
+        <li>Ligar para a Eduarada
+        <li>Acordar
+        <li>Tomar café
+        <li>Escovar os dentes
+        <li>Tomar banho
+        <li>Almoçar
+        <li>Ir ao Trabalho
+        <li>Voltar para casa
+        <li>Jantar
+        <li>Escovar
+        <li>Banhar
+        <li>Dormir
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="square">  <!-- disc circle square -->
+        <li>Pão
+        <li>Manteiga
+        <li>Leite
+        <li>Arroz
+        <li>Toddy
+        <li>Macarrão instantaneo
+        <li>Tomate
+    </ul>
+    <h2>Minhas linguagens Favoritas</h2>
+    <ol>
+        <li>Antigas
+        <ol type="a">
+            <li>Clipper
+            <li>Visual Basic
+            <li>Fortran
+            <li>Delphi
+        </ol> 
+        <li>Novas
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Phython</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus Jogos Favoritos</h2>
+    <ol>
+        <li>Nintendo</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Garden</li>
+        </ul>
+        <li>Super Nintendo</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation 1</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+        <li>PlayStation 2</li>
+        <ul type="square">
+            <li>Gta San Andreas</li>
+            <li>Black</li>
+            <li>D</li>
+        </ul>
+    </ol>
+    <h2>Listas de definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do coneúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação de design de um site/dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de Progamação para a criação de interatividade de um site</dd>
+    </dl>
+</body>
+</html>
