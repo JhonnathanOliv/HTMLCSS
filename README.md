@@ -1,4 +1,4 @@
-# HTML5 e CSS3
+# HTML e CSS
  Curso de JavaScript do Curso Em Vídeo
 
 Estou aprendendo a configurar meu repositório no GiotHub!!
