@@ -1,0 +1,13 @@
+@charset "UFT=8";
+
+body {
+    font-family: cursive;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+    
+}
