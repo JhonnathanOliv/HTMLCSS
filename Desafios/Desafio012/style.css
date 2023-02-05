@@ -50,10 +50,13 @@ p.pinicial > a:hover {
     font-weight: bold;
 }
 
-@font-face {
-    font-family: Sriracha;
-    src: url('fonts/Sriracha-Regular.ttf') format('truetype');
-    font-family: passion one; src: url('fonts/PassionOne-Bold.ttf') format('truetype');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font1: 'passion one', cursive;
+    --font2: 'Sriracha', cursive;
 }
 
 section {
