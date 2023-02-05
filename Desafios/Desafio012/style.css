@@ -7,6 +7,7 @@
 body {
     font-family: cursive;
     background-image: url('imagens/background001.jpg' );
+    background-repeat: no-repeat;
     background-size: 1000px;
     background-attachment: fixed;
     background-position: center center, center right;
