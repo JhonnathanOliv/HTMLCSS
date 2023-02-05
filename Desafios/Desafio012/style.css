@@ -23,7 +23,7 @@ header {
 h1.cordel {
     padding-top: 50px;
     font-variant: small-caps;
-    font-family: passion one, cursive;
+    font-family: Passion one, cursive;
     font-size: 10vw;
 }
 
@@ -55,7 +55,7 @@ p.pinicial > a:hover {
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-    --font1: 'passion one', cursive;
+    --font1: 'Passion one', cursive;
     --font2: 'Sriracha', cursive;
 }
 
