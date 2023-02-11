@@ -20,11 +20,18 @@
             width: 500px;
             border-collapse: collapse;
             margin: auto;
+            position: relative;
         }
 
         td, th  {
             border: 1px solid black;
             padding: 10px;
+        }
+
+        thead > tr > th {
+        position: sticky;
+            background-color: gray;
+            top: 0;
         }
 
         .num {
@@ -44,11 +51,11 @@
         }
 
         tbody > tr:nth-child(even) {
-            background-color: lightcoral;
+            background-color: lightgrey;
         }
 
         tbody > tr:nth-child(odd) {
-            background-color: lightslategrey;
+            background-color: white;
         }
 
     </style>
