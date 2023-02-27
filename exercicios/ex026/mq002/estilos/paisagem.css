@@ -3,8 +3,6 @@
 /* Aparelho Deitado (Landscape) */
 
 body {
-    background: url('../images/cev-landscape.jpg');
+    background-image: url('../images/cev-landscape.jpg');
     background-position: left bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
